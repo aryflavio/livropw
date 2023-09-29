@@ -1,16 +1,16 @@
-@import "styles/variaveis";
-@import "styles/breakpoints";
+@import "../../styles/variaveis";
+@import "../../styles/breakpoints";
 
 .menu {
-    padding: 20px $padding-horizontal;
+    padding: 5px $padding-horizontal;
     @media (max-width: $desktop_xsm) {
-      padding: 20px $padding-horizontal-mobile;
+      padding: 5px $padding-horizontal-mobile;
     }
     @media (min-width: $desktop_xsm) and (max-width: $desktop_sm) {
-      padding: 20px $padding-horizontal-sm;
+      padding: 5px $padding-horizontal-sm;
     }
     @media (min-width: $desktop_sm) and (max-width: $desktop_md) {
-      padding: 20px $padding-horizontal-md;
+      padding: 5px $padding-horizontal-md;
     }
   }
   
@@ -33,7 +33,7 @@
     }
     &__text {
       color: white;
-      font-size: 5rem;
+      font-size: 4rem;
       min-width: 400px;
       width: 40%;
     }
@@ -63,4 +63,10 @@
       margin-bottom: 30px;
       width: 100%;
     }
+  }
+
+  .img{
+    width: 10%;
+    margin-left: 42%;
+
   }

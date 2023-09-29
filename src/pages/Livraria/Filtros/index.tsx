@@ -1,4 +1,4 @@
-import styles from './Filtros.module.scss';
+import styles from './filtros.module.scss';
 import filtros from './filtros.json'
 
 type IOpcao = typeof filtros [0];

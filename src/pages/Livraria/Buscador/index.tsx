@@ -1,4 +1,4 @@
-import styles from './Buscador.module.scss';
+import styles from './buscador.module.scss';
 import {CgSearch} from  'react-icons/cg';
 
 interface Props {
