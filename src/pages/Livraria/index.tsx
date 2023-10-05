@@ -6,6 +6,7 @@ import Filtros from './Filtros';
 
 export default function Livraria() {
     const [busca, setBusca] = useState("");
+    const [filtro, setFiltro] = useState<number | null> (null);
     return (
     <main>
         <nav className={styles.menu}>
@@ -21,7 +22,7 @@ export default function Livraria() {
             <h3 className={styles.livraria__titulo}>Livros</h3>
             <Buscador busca={busca} setBusca={setBusca}/>
             <div className={styles.livraria__filtros}>
-            <Filtros/>
+            <Filtros filtro={filtro} setFiltro={setFiltro}/>
             </div>
         </section>
         
