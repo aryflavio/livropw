@@ -1,4 +1,4 @@
-import styles from './livraria.module.scss';
+import styles from './Livraria.module.scss';
 import logo from '../../assets/logo.png';
 import Buscador from './Buscador';
 import { useState } from 'react';
@@ -14,7 +14,7 @@ export default function Livraria() {
         </nav>
         <header className={styles.header}>
             <div className={styles.header__text}>
-                A livraria mais top!!!
+             
             </div>
         </header>
 

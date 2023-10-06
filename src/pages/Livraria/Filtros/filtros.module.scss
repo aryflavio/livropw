@@ -5,13 +5,16 @@
   gap: 24px;
   flex-wrap: wrap;
   margin: 20px 0;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
   &__filtro {
     align-items: center;
     background-color: $grey;
     border: none;
     border-radius: 10px;
     display: flex;
-    font-size: 1.20rem;
+    font-size: 1rem;
     font-weight: bold;
     height: 40px;
     justify-content: center;
